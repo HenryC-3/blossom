@@ -6,7 +6,7 @@
       <img src="../assets/tailwind.png" alt="tailwind" />
     </div>
     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-      <p class="text-lg font-medium">
+      <p class="text-lg font-medium text-gray-400">
         A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90
         that can be composed to build any design, directly in your markup
       </p>
