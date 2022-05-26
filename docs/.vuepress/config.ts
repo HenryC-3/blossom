@@ -1,5 +1,4 @@
 import { defaultTheme, DefaultThemeOptions } from 'vuepress'
-import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { path } from '@vuepress/utils'
@@ -8,6 +7,7 @@ const config: DefaultThemeOptions = {
   lang: 'en-US',
   title: '组件文档',
   description: '介绍当前项目下的若干组件',
+  base: '/blossom/',
   theme: defaultTheme({
     darkMode: false,
     navbar: [
