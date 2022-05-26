@@ -27,3 +27,5 @@ coverage
 *.sln
 *.sw?
 .eslintcache
+.temp
+.cache
