@@ -1,4 +1,4 @@
-import { defaultTheme, DefaultThemeOptions } from 'vuepress'
+import { defaultTheme, type DefaultThemeOptions } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { path } from '@vuepress/utils'
