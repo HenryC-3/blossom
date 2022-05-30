@@ -8,8 +8,7 @@ import router from './router'
 
 const app = createApp(App)
 
-// eslint-disable-next-line vue/multi-word-component-names
-app.component('icon-component', IconComponent)
+app.component('IconComponent', IconComponent)
 app.use(createPinia())
 app.use(router)
 
