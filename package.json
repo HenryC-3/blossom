@@ -28,6 +28,8 @@
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
+    "@iconify/types": "^1.1.0",
+    "@iconify/vue": "^3.2.1",
     "@rushstack/eslint-patch": "^1.1.0",
     "@types/node": "^16.11.27",
     "@vitejs/plugin-vue": "^2.3.1",
