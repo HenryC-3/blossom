@@ -3,10 +3,7 @@
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "docs/.vuepress/*"],
   "compilerOptions": {
     "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "baseUrl": "."
   },
 
   "references": [
