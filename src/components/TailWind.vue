@@ -1,11 +1,10 @@
 <template>
   <figure
-    class="flex flex-col items-center md:flex-row bg-slate-100 rounded-xl p-8 md:pl-4 md:pr-4 dark:bg-slate-800"
-  >
-    <div class="flex-shrink-0 flex-grow-0 w-[125px] md:basis-[125px]">
+    class="flex flex-col items-center rounded-xl bg-slate-100 p-8 dark:bg-slate-800 md:flex-row md:pl-4 md:pr-4">
+    <div class="w-[125px] flex-shrink-0 flex-grow-0 md:basis-[125px]">
       <img src="../assets/tailwind.png" alt="tailwind" />
     </div>
-    <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <div class="space-y-4 pt-6 text-center md:p-8 md:text-left">
       <p class="text-lg font-medium text-gray-400">
         A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90
         that can be composed to build any design, directly in your markup
